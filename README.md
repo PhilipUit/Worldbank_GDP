@@ -3,7 +3,7 @@
 - We use the dataset found here: https://databank.worldbank.org/source/education-statistics-%5e-all-indicators and look at GDP % spending by country, verbatim to the instructions to avoid confusion. 
 - We will discuss how we tidy the data and reshape it throughout to make the dataset easier and better fot analysis as we progress.  import os import requests  import pandas as pd import numpy as np
 The World Bank is an excellent place to get comparative data sets.  
- -Choose a data set from there to work with: Go to https://data.worldbank.org/ Under the "World Bank Open Data" header, choose "Browse by Indicator" At this point you will see literally hundreds of economic indicators to choose from. 
+- Choose a data set from there to work with: Go to https://data.worldbank.org/ Under the "World Bank Open Data" header, choose "Browse by Indicator" At this point you will see literally hundreds of economic indicators to choose from. 
  - Feel free to choose anything that looks interesting. I chose "Government Expenditure on Education, total (% of GDP)" as an example. On the right hand side, choose "Databank".  On the left side you will see the Variables tab chosen by default. My recommendation is to open the "Country" section and limit the countries in some manner. Ex: South America, Africa, etc. (the funnel icon will help filter by region).
  - When you are satisfied with the region/countries, find the Download link in the upper-right corner and download a CSV file. 
  - Load the dataset into a dataframe. 
